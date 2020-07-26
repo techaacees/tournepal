@@ -1,0 +1,22 @@
+//variables
+$default-font-color: #777;
+
+//basic reset
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit ;
+}
+//projectwise font definition
+html{
+   font-size: 62.5%; //defining 1rem = 10px
+}
+body{
+    font-family: roboto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $default-font-color;
+    box-sizing: border-box;
+
+}
